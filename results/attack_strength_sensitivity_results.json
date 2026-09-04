@@ -1,0 +1,86 @@
+{
+  "near_benign": {
+    "macro_f1": 0.7960836478247074,
+    "per_class_f1": {
+      "Benign": 0.7144866385372715,
+      "Biosignal_Spoofing": 0.7734375,
+      "Denial_of_Sleep": 0.8189910979228486,
+      "Simulated_Jamming": 0.8774193548387097
+    },
+    "dos_range": [
+      0.9,
+      1.3
+    ],
+    "jam_range": [
+      0.0,
+      0.03
+    ],
+    "spoof_range": [
+      1,
+      5
+    ]
+  },
+  "subtle": {
+    "macro_f1": 0.8817141993767091,
+    "per_class_f1": {
+      "Benign": 0.7108239095315024,
+      "Biosignal_Spoofing": 0.816032887975334,
+      "Denial_of_Sleep": 1.0,
+      "Simulated_Jamming": 1.0
+    },
+    "dos_range": [
+      1.5,
+      3.0
+    ],
+    "jam_range": [
+      0.03,
+      0.1
+    ],
+    "spoof_range": [
+      5,
+      15
+    ]
+  },
+  "moderate": {
+    "macro_f1": 0.8523969922765473,
+    "per_class_f1": {
+      "Benign": 0.6254295532646048,
+      "Biosignal_Spoofing": 0.7841584158415842,
+      "Denial_of_Sleep": 1.0,
+      "Simulated_Jamming": 1.0
+    },
+    "dos_range": [
+      4.0,
+      8.0
+    ],
+    "jam_range": [
+      0.08,
+      0.2
+    ],
+    "spoof_range": [
+      12,
+      25
+    ]
+  },
+  "original": {
+    "macro_f1": 0.8756282729401857,
+    "per_class_f1": {
+      "Benign": 0.7012578616352201,
+      "Biosignal_Spoofing": 0.801255230125523,
+      "Denial_of_Sleep": 1.0,
+      "Simulated_Jamming": 1.0
+    },
+    "dos_range": [
+      15.0,
+      40.0
+    ],
+    "jam_range": [
+      0.15,
+      0.5
+    ],
+    "spoof_range": [
+      40,
+      80
+    ]
+  }
+}

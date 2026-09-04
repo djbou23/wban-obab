@@ -1,0 +1,138 @@
+{
+  "Biosignal_Spoofing": {
+    "hr_mean": {
+      "cohens_d": -0.971,
+      "histogram_overlap": 0.093
+    },
+    "hr_std": {
+      "cohens_d": -2.512,
+      "histogram_overlap": 0.016
+    },
+    "ppg_mean": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "ppg_std": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "temp_mean": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "motion_energy": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "tx_rate": {
+      "cohens_d": 0.022,
+      "histogram_overlap": 0.502
+    },
+    "packet_loss_rate": {
+      "cohens_d": 0.019,
+      "histogram_overlap": 0.929
+    }
+  },
+  "Denial_of_Sleep": {
+    "hr_mean": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "hr_std": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "ppg_mean": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "ppg_std": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "temp_mean": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "motion_energy": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "tx_rate": {
+      "cohens_d": 5.194,
+      "histogram_overlap": 0.0
+    },
+    "packet_loss_rate": {
+      "cohens_d": 1.412,
+      "histogram_overlap": 0.384
+    }
+  },
+  "Replay": {
+    "hr_mean": {
+      "cohens_d": 0.004,
+      "histogram_overlap": 0.948
+    },
+    "hr_std": {
+      "cohens_d": -0.046,
+      "histogram_overlap": 0.966
+    },
+    "ppg_mean": {
+      "cohens_d": -0.013,
+      "histogram_overlap": 0.962
+    },
+    "ppg_std": {
+      "cohens_d": -0.012,
+      "histogram_overlap": 0.969
+    },
+    "temp_mean": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "motion_energy": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "tx_rate": {
+      "cohens_d": 1.103,
+      "histogram_overlap": 0.498
+    },
+    "packet_loss_rate": {
+      "cohens_d": 0.018,
+      "histogram_overlap": 0.932
+    }
+  },
+  "Simulated_Jamming": {
+    "hr_mean": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "hr_std": {
+      "cohens_d": 1.126,
+      "histogram_overlap": 0.531
+    },
+    "ppg_mean": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "ppg_std": {
+      "cohens_d": -3.527,
+      "histogram_overlap": 0.077
+    },
+    "temp_mean": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "motion_energy": {
+      "cohens_d": 0.0,
+      "histogram_overlap": 1.0
+    },
+    "tx_rate": {
+      "cohens_d": -3.917,
+      "histogram_overlap": 0.0
+    },
+    "packet_loss_rate": {
+      "cohens_d": 4.381,
+      "histogram_overlap": 0.0
+    }
+  }
+}

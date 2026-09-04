@@ -1,0 +1,358 @@
+{
+  "CICIoMT2024_WiFi_MQTT_coarse_CAPPED": {
+    "RandomForest": {
+      "macro_f1": 0.9199915979915169,
+      "report": {
+        "Benign": {
+          "precision": 0.9676777455093041,
+          "recall": 0.9568963224931528,
+          "f1-score": 0.9622568353499565,
+          "support": 37607.0
+        },
+        "MQTT": {
+          "precision": 0.996025173898642,
+          "recall": 0.9910853017342854,
+          "f1-score": 0.9935490976603678,
+          "support": 63715.0
+        },
+        "Recon": {
+          "precision": 0.9785047746995389,
+          "recall": 0.9737317531435179,
+          "f1-score": 0.9761124291431986,
+          "support": 27676.0
+        },
+        "Spoofing": {
+          "precision": 0.4461086637298091,
+          "recall": 0.8709862385321101,
+          "f1-score": 0.5900174791221596,
+          "support": 1744.0
+        },
+        "TCP_IP-DDoS": {
+          "precision": 0.9997654121848665,
+          "recall": 0.9987672999838765,
+          "f1-score": 0.9992661068445268,
+          "support": 1066764.0
+        },
+        "TCP_IP-DoS": {
+          "precision": 0.9984194747571651,
+          "recall": 0.9990760206971364,
+          "f1-score": 0.9987476398288921,
+          "support": 416676.0
+        },
+        "accuracy": 0.997000957760649,
+        "macro avg": {
+          "precision": 0.897750207463221,
+          "recall": 0.9650904894306799,
+          "f1-score": 0.9199915979915169,
+          "support": 1614182.0
+        },
+        "weighted avg": {
+          "precision": 0.9975600618841883,
+          "recall": 0.997000957760649,
+          "f1-score": 0.9972052299011083,
+          "support": 1614182.0
+        }
+      }
+    },
+    "XGBoost": {
+      "macro_f1": 0.9217787319266216,
+      "report": {
+        "Benign": {
+          "precision": 0.9814638135477716,
+          "recall": 0.9574015475842264,
+          "f1-score": 0.9692833683303721,
+          "support": 37607.0
+        },
+        "MQTT": {
+          "precision": 0.9990053207445885,
+          "recall": 0.993078552931021,
+          "f1-score": 0.9960331202972011,
+          "support": 63715.0
+        },
+        "Recon": {
+          "precision": 0.9901710026308097,
+          "recall": 0.9791516115045527,
+          "f1-score": 0.9846304774362329,
+          "support": 27676.0
+        },
+        "Spoofing": {
+          "precision": 0.4369292237442922,
+          "recall": 0.8778669724770642,
+          "f1-score": 0.5834603658536586,
+          "support": 1744.0
+        },
+        "TCP_IP-DDoS": {
+          "precision": 0.9992602988617603,
+          "recall": 0.999150702498397,
+          "f1-score": 0.9992054976748502,
+          "support": 1066764.0
+        },
+        "TCP_IP-DoS": {
+          "precision": 0.9981014830513559,
+          "recall": 0.9980176444047654,
+          "f1-score": 0.9980595619674145,
+          "support": 416676.0
+        },
+        "accuracy": 0.9971719421973483,
+        "macro avg": {
+          "precision": 0.900821857096763,
+          "recall": 0.9674445052333377,
+          "f1-score": 0.9217787319266216,
+          "support": 1614182.0
+        },
+        "weighted avg": {
+          "precision": 0.9977730874766455,
+          "recall": 0.9971719421973483,
+          "f1-score": 0.9973882730869622,
+          "support": 1614182.0
+        }
+      }
+    }
+  },
+  "CICIoMT2024_WiFi_MQTT_coarse_FULL": {
+    "RandomForest": {
+      "macro_f1": 0.9524389694160424,
+      "report": {
+        "Benign": {
+          "precision": 0.9690069077824179,
+          "recall": 0.9810141728933444,
+          "f1-score": 0.9749735729386892,
+          "support": 37607.0
+        },
+        "MQTT": {
+          "precision": 0.9999369095124683,
+          "recall": 0.995009024562505,
+          "f1-score": 0.9974668806444508,
+          "support": 63715.0
+        },
+        "Recon": {
+          "precision": 0.9879116451152057,
+          "recall": 0.9744544009249891,
+          "f1-score": 0.9811368804001819,
+          "support": 27676.0
+        },
+        "Spoofing": {
+          "precision": 0.7177664974619289,
+          "recall": 0.8107798165137615,
+          "f1-score": 0.7614431879375336,
+          "support": 1744.0
+        },
+        "TCP_IP-DDoS": {
+          "precision": 0.9998256639532105,
+          "recall": 0.9999578163492582,
+          "f1-score": 0.9998917357846976,
+          "support": 1066764.0
+        },
+        "TCP_IP-DoS": {
+          "precision": 0.9998919656018477,
+          "recall": 0.9995512100528948,
+          "f1-score": 0.999721558790701,
+          "support": 416676.0
+        },
+        "accuracy": 0.9985745101853446,
+        "macro avg": {
+          "precision": 0.9457232649045132,
+          "recall": 0.9601277402161253,
+          "f1-score": 0.9524389694160424,
+          "support": 1614182.0
+        },
+        "weighted avg": {
+          "precision": 0.9986201430029826,
+          "recall": 0.9985745101853446,
+          "f1-score": 0.9985923660050641,
+          "support": 1614182.0
+        }
+      }
+    },
+    "XGBoost": {
+      "macro_f1": 0.9274750832776695,
+      "report": {
+        "Benign": {
+          "precision": 0.973668623122072,
+          "recall": 0.9616294838726833,
+          "f1-score": 0.9676116068442387,
+          "support": 37607.0
+        },
+        "MQTT": {
+          "precision": 0.999213156031159,
+          "recall": 0.996547123911167,
+          "f1-score": 0.9978783592644979,
+          "support": 63715.0
+        },
+        "Recon": {
+          "precision": 0.944974988631196,
+          "recall": 0.9760803584332997,
+          "f1-score": 0.9602758473597213,
+          "support": 27676.0
+        },
+        "Spoofing": {
+          "precision": 0.6927187708750835,
+          "recall": 0.5946100917431193,
+          "f1-score": 0.6399259487812403,
+          "support": 1744.0
+        },
+        "TCP_IP-DDoS": {
+          "precision": 0.9996073396558833,
+          "recall": 0.9999034463105242,
+          "f1-score": 0.999755371058053,
+          "support": 1066764.0
+        },
+        "TCP_IP-DoS": {
+          "precision": 0.9998174529400885,
+          "recall": 0.9989896226324531,
+          "f1-score": 0.9994033663582659,
+          "support": 416676.0
+        },
+        "accuracy": 0.9977970266054261,
+        "macro avg": {
+          "precision": 0.935000055209247,
+          "recall": 0.9212933544838743,
+          "f1-score": 0.9274750832776695,
+          "support": 1614182.0
+        },
+        "weighted avg": {
+          "precision": 0.997773431106265,
+          "recall": 0.9977970266054261,
+          "f1-score": 0.9977758705631709,
+          "support": 1614182.0
+        }
+      }
+    }
+  },
+  "CICIoMT2024_Bluetooth": {
+    "RandomForest": {
+      "macro_f1": 1.0,
+      "report": {
+        "Benign": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 327.0
+        },
+        "DoS": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1259.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1586.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1586.0
+        }
+      }
+    },
+    "XGBoost": {
+      "macro_f1": 1.0,
+      "report": {
+        "Benign": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 327.0
+        },
+        "DoS": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1259.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1586.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1586.0
+        }
+      }
+    }
+  },
+  "WUSTL_EHMS_2020": {
+    "RandomForest": {
+      "macro_f1": 0.691661691681182,
+      "report": {
+        "Data Alteration": {
+          "precision": 0.9787234042553191,
+          "recall": 1.0,
+          "f1-score": 0.989247311827957,
+          "support": 184.0
+        },
+        "Spoofing": {
+          "precision": 0.75,
+          "recall": 0.06666666666666667,
+          "f1-score": 0.12244897959183673,
+          "support": 225.0
+        },
+        "normal": {
+          "precision": 0.9316099476439791,
+          "recall": 0.9971978984238179,
+          "f1-score": 0.9632887836237524,
+          "support": 2855.0
+        },
+        "accuracy": 0.9332107843137255,
+        "macro avg": {
+          "precision": 0.8867777839664327,
+          "recall": 0.6879548550301614,
+          "f1-score": 0.691661691681182,
+          "support": 3264.0
+        },
+        "weighted avg": {
+          "precision": 0.9217467852042092,
+          "recall": 0.9332107843137255,
+          "f1-score": 0.9067898293597796,
+          "support": 3264.0
+        }
+      }
+    },
+    "XGBoost": {
+      "macro_f1": 0.8888269038160436,
+      "report": {
+        "Data Alteration": {
+          "precision": 0.989247311827957,
+          "recall": 1.0,
+          "f1-score": 0.9945945945945946,
+          "support": 184.0
+        },
+        "Spoofing": {
+          "precision": 0.8271604938271605,
+          "recall": 0.5955555555555555,
+          "f1-score": 0.6925064599483204,
+          "support": 225.0
+        },
+        "normal": {
+          "precision": 0.9691358024691358,
+          "recall": 0.9898423817863398,
+          "f1-score": 0.9793796569052158,
+          "support": 2855.0
+        },
+        "accuracy": 0.9632352941176471,
+        "macro avg": {
+          "precision": 0.9285145360414178,
+          "recall": 0.8617993124472983,
+          "f1-score": 0.8888269038160436,
+          "support": 3264.0
+        },
+        "weighted avg": {
+          "precision": 0.9604826386448645,
+          "recall": 0.9632352941176471,
+          "f1-score": 0.9604620953915957,
+          "support": 3264.0
+        }
+      }
+    }
+  }
+}

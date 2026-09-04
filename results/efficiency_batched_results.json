@@ -1,0 +1,26 @@
+{
+  "RandomForest": {
+    "batched_ms_per_sample": 0.027750100003322585,
+    "batch_size": 1000
+  },
+  "XGBoost": {
+    "batched_ms_per_sample": 0.00471057000104338,
+    "batch_size": 1000
+  },
+  "CNN": {
+    "batched_ms_per_sample": 0.0023373650037683547,
+    "batch_size": 1000
+  },
+  "LSTM": {
+    "batched_ms_per_sample": 0.0035657099972013382,
+    "batch_size": 1000
+  },
+  "BiGRU_Attention": {
+    "batched_ms_per_sample": 0.011843349999981,
+    "batch_size": 1000
+  },
+  "Transformer": {
+    "batched_ms_per_sample": 0.014446470001712442,
+    "batch_size": 1000
+  }
+}

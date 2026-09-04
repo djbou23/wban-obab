@@ -1,0 +1,66 @@
+{
+  "near_benign": {
+    "macro_f1_mean": 0.8025506233148517,
+    "macro_f1_std": 0.00677895240399154,
+    "per_class_f1_mean": {
+      "Benign": 0.6985934779865209,
+      "Biosignal_Spoofing": 0.7824423452617422,
+      "Denial_of_Sleep": 0.8451603520324801,
+      "Simulated_Jamming": 0.8840063179786638
+    },
+    "per_class_f1_std": {
+      "Benign": 0.010385558651887759,
+      "Biosignal_Spoofing": 0.006932296285809508,
+      "Denial_of_Sleep": 0.020627238798350017,
+      "Simulated_Jamming": 0.010468604606064495
+    }
+  },
+  "subtle": {
+    "macro_f1_mean": 0.8896340134275764,
+    "macro_f1_std": 0.010477691974468881,
+    "per_class_f1_mean": {
+      "Benign": 0.7332667248192198,
+      "Biosignal_Spoofing": 0.8252693288910855,
+      "Denial_of_Sleep": 1.0,
+      "Simulated_Jamming": 1.0
+    },
+    "per_class_f1_std": {
+      "Benign": 0.02987940226089445,
+      "Biosignal_Spoofing": 0.012033013166409817,
+      "Denial_of_Sleep": 0.0,
+      "Simulated_Jamming": 0.0
+    }
+  },
+  "moderate": {
+    "macro_f1_mean": 0.8601650571765859,
+    "macro_f1_std": 0.007737027306057912,
+    "per_class_f1_mean": {
+      "Benign": 0.6487489759544577,
+      "Biosignal_Spoofing": 0.7919112527518861,
+      "Denial_of_Sleep": 1.0,
+      "Simulated_Jamming": 1.0
+    },
+    "per_class_f1_std": {
+      "Benign": 0.022851550386660358,
+      "Biosignal_Spoofing": 0.008115984641043537,
+      "Denial_of_Sleep": 0.0,
+      "Simulated_Jamming": 0.0
+    }
+  },
+  "original": {
+    "macro_f1_mean": 0.8813954951530707,
+    "macro_f1_std": 0.0038851953204553356,
+    "per_class_f1_mean": {
+      "Benign": 0.7127343544638344,
+      "Biosignal_Spoofing": 0.8128476261484483,
+      "Denial_of_Sleep": 1.0,
+      "Simulated_Jamming": 1.0
+    },
+    "per_class_f1_std": {
+      "Benign": 0.00930875162213167,
+      "Biosignal_Spoofing": 0.006627874651685822,
+      "Denial_of_Sleep": 0.0,
+      "Simulated_Jamming": 0.0
+    }
+  }
+}

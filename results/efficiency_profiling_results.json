@@ -1,0 +1,26 @@
+{
+  "RandomForest": {
+    "inference_ms_per_sample": 16.7419615999097,
+    "n_estimators": 200
+  },
+  "XGBoost": {
+    "inference_ms_per_sample": 0.9858392000896855,
+    "n_estimators": 200
+  },
+  "CNN": {
+    "inference_ms_per_sample": 0.18567549996078014,
+    "n_parameters": 6661
+  },
+  "LSTM": {
+    "inference_ms_per_sample": 0.2645816000876948,
+    "n_parameters": 17477
+  },
+  "BiGRU_Attention": {
+    "inference_ms_per_sample": 0.7950381999835372,
+    "n_parameters": 26502
+  },
+  "Transformer": {
+    "inference_ms_per_sample": 0.6116183999693021,
+    "n_parameters": 67909
+  }
+}

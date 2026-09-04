@@ -1,0 +1,46 @@
+{
+  "feature_order": [
+    "hr_std",
+    "ppg_mean",
+    "hr_mean",
+    "packet_loss_rate",
+    "tx_rate",
+    "temp_mean",
+    "ppg_std",
+    "motion_energy"
+  ],
+  "natural_order": [
+    "hr_mean",
+    "hr_std",
+    "ppg_mean",
+    "ppg_std",
+    "temp_mean",
+    "motion_energy",
+    "tx_rate",
+    "packet_loss_rate"
+  ],
+  "CNN": {
+    "macro_f1_permuted": 0.7469665124715826,
+    "stopped_epoch": 54,
+    "macro_f1_natural_order": 0.7852295906178359,
+    "delta": -0.03826307814625329
+  },
+  "LSTM": {
+    "macro_f1_permuted": 0.7804478280884709,
+    "stopped_epoch": 15,
+    "macro_f1_natural_order": 0.7881096162012742,
+    "delta": -0.0076617881128032694
+  },
+  "BiGRU_Attention": {
+    "macro_f1_permuted": 0.8023538073127489,
+    "stopped_epoch": 30,
+    "macro_f1_natural_order": 0.7855396100155413,
+    "delta": 0.016814197297207567
+  },
+  "Transformer": {
+    "macro_f1_permuted": 0.7987516931374146,
+    "stopped_epoch": 7,
+    "macro_f1_natural_order": 0.7935976118014229,
+    "delta": 0.0051540813359917115
+  }
+}

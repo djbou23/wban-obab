@@ -1,0 +1,35 @@
+{
+  "physio_only": {
+    "macro_f1": 0.607532612198814,
+    "per_class_f1": {
+      "Benign": 0.2717948717948718,
+      "Biosignal_Spoofing": 0.9990448901623686,
+      "Denial_of_Sleep": 0.22346368715083798,
+      "Replay": 0.5433596118859915,
+      "Simulated_Jamming": 1.0
+    },
+    "n_features": 6
+  },
+  "network_only": {
+    "macro_f1": 0.7328363446577836,
+    "per_class_f1": {
+      "Benign": 0.6645244215938303,
+      "Biosignal_Spoofing": 0.511166253101737,
+      "Denial_of_Sleep": 1.0,
+      "Replay": 0.4884910485933504,
+      "Simulated_Jamming": 1.0
+    },
+    "n_features": 2
+  },
+  "combined": {
+    "macro_f1": 0.885860299507802,
+    "per_class_f1": {
+      "Benign": 0.7111111111111111,
+      "Biosignal_Spoofing": 1.0,
+      "Denial_of_Sleep": 1.0,
+      "Replay": 0.7181903864278982,
+      "Simulated_Jamming": 1.0
+    },
+    "n_features": 8
+  }
+}

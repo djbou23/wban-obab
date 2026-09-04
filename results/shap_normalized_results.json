@@ -1,0 +1,13 @@
+{
+  "n_biometric_features": 8,
+  "n_network_features": 28,
+  "raw_biometric_share": 0.15389366791081716,
+  "raw_network_share": 0.8461063320891828,
+  "per_feature_mean_biometric": 0.003274943857873595,
+  "per_feature_mean_network": 0.005144462542593682,
+  "per_feature_ratio_bio_over_net_mean": 0.6365959185743177,
+  "per_feature_median_biometric": 0.003341940915215523,
+  "per_feature_median_network": 0.00019155455578522213,
+  "per_feature_ratio_bio_over_net_median": 17.446418340280186,
+  "top2_network_share_of_network_group": 0.4215083883194613
+}

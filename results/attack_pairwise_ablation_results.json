@@ -1,0 +1,26 @@
+{
+  "Biosignal_Spoofing": {
+    "binary_macro_f1_vs_benign_only": 1.0,
+    "n_train": 4458,
+    "n_test": 1048,
+    "binary_macro_f1_full_5class_model_restricted_eval": 1.0
+  },
+  "Denial_of_Sleep": {
+    "binary_macro_f1_vs_benign_only": 1.0,
+    "n_train": 4458,
+    "n_test": 1048,
+    "binary_macro_f1_full_5class_model_restricted_eval": 1.0
+  },
+  "Replay": {
+    "binary_macro_f1_vs_benign_only": 0.7298445629956817,
+    "n_train": 4458,
+    "n_test": 1048,
+    "binary_macro_f1_full_5class_model_restricted_eval": 0.7146507487695046
+  },
+  "Simulated_Jamming": {
+    "binary_macro_f1_vs_benign_only": 1.0,
+    "n_train": 4458,
+    "n_test": 1048,
+    "binary_macro_f1_full_5class_model_restricted_eval": 1.0
+  }
+}

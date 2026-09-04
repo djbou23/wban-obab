@@ -1,0 +1,26 @@
+{
+  "5": {
+    "macro_f1": 0.8794426133105159,
+    "n_source_windows": 5545,
+    "n_train": 22485,
+    "n_test": 5240
+  },
+  "10": {
+    "macro_f1": 0.8932173446217814,
+    "n_source_windows": 2753,
+    "n_train": 11145,
+    "n_test": 2620
+  },
+  "20": {
+    "macro_f1": 0.9154557067389085,
+    "n_source_windows": 1363,
+    "n_train": 5595,
+    "n_test": 1220
+  },
+  "30": {
+    "macro_f1": 0.8849280800500313,
+    "n_source_windows": 895,
+    "n_train": 3675,
+    "n_test": 800
+  }
+}

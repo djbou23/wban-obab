@@ -1,0 +1,13 @@
+{
+  "in_domain_WUSTL": 0.8114058909322127,
+  "in_domain_OnBody": 0.8636132315521627,
+  "train_WUSTL_test_OnBody": 0.16666666666666666,
+  "train_WUSTL_test_OnBody_per_class_accuracy": {
+    "Benign": 1.0,
+    "Biosignal_Spoofing": 0.0,
+    "Replay": 0.0,
+    "Denial_of_Sleep": 0.0,
+    "Simulated_Jamming": 0.0
+  },
+  "train_OnBody_test_WUSTL": 0.11141363537355696
+}

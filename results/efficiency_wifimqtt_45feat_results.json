@@ -1,0 +1,30 @@
+{
+  "RandomForest": {
+    "single_ms": 17.797346999985166,
+    "batched_ms": 0.034090750000905244
+  },
+  "XGBoost": {
+    "single_ms": 1.1569636999629438,
+    "batched_ms": 0.008998950000386686
+  },
+  "CNN": {
+    "single_ms": 0.2526934000197798,
+    "batched_ms": 0.01003284000325948,
+    "n_parameters": 6726
+  },
+  "LSTM": {
+    "single_ms": 0.3854625999229029,
+    "batched_ms": 0.017484230000991374,
+    "n_parameters": 17542
+  },
+  "BiGRU_Attention": {
+    "single_ms": 3.6298586999764666,
+    "batched_ms": 0.07829868500120937,
+    "n_parameters": 26631
+  },
+  "Transformer": {
+    "single_ms": 0.8391495000105351,
+    "batched_ms": 0.11809012499870733,
+    "n_parameters": 70342
+  }
+}

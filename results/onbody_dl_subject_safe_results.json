@@ -1,0 +1,374 @@
+{
+  "CNN": {
+    "macro_f1": 0.7852295906178359,
+    "report": {
+      "Benign": {
+        "precision": 0.4725,
+        "recall": 0.3606870229007634,
+        "f1-score": 0.4090909090909091,
+        "support": 524.0
+      },
+      "Biosignal_Spoofing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 524.0
+      },
+      "Denial_of_Sleep": {
+        "precision": 1.0,
+        "recall": 0.9980916030534351,
+        "f1-score": 0.9990448901623686,
+        "support": 524.0
+      },
+      "Replay": {
+        "precision": 0.48119122257053293,
+        "recall": 0.5858778625954199,
+        "f1-score": 0.5283993115318416,
+        "support": 524.0
+      },
+      "Simulated_Jamming": {
+        "precision": 0.9794392523364486,
+        "recall": 1.0,
+        "f1-score": 0.9896128423040604,
+        "support": 524.0
+      },
+      "accuracy": 0.7889312977099237,
+      "macro avg": {
+        "precision": 0.7866260949813964,
+        "recall": 0.7889312977099238,
+        "f1-score": 0.7852295906178359,
+        "support": 2620.0
+      },
+      "weighted avg": {
+        "precision": 0.7866260949813961,
+        "recall": 0.7889312977099237,
+        "f1-score": 0.7852295906178359,
+        "support": 2620.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        189,
+        0,
+        0,
+        331,
+        4
+      ],
+      [
+        0,
+        524,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        523,
+        0,
+        1
+      ],
+      [
+        211,
+        0,
+        0,
+        307,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        524
+      ]
+    ],
+    "class_order": [
+      "Benign",
+      "Biosignal_Spoofing",
+      "Denial_of_Sleep",
+      "Replay",
+      "Simulated_Jamming"
+    ],
+    "stopped_epoch": 45
+  },
+  "LSTM": {
+    "macro_f1": 0.7881096162012742,
+    "report": {
+      "Benign": {
+        "precision": 0.47072072072072074,
+        "recall": 0.3988549618320611,
+        "f1-score": 0.4318181818181818,
+        "support": 524.0
+      },
+      "Biosignal_Spoofing": {
+        "precision": 0.9980952380952381,
+        "recall": 1.0,
+        "f1-score": 0.9990467111534795,
+        "support": 524.0
+      },
+      "Denial_of_Sleep": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 524.0
+      },
+      "Replay": {
+        "precision": 0.4768211920529801,
+        "recall": 0.549618320610687,
+        "f1-score": 0.5106382978723404,
+        "support": 524.0
+      },
+      "Simulated_Jamming": {
+        "precision": 1.0,
+        "recall": 0.9980916030534351,
+        "f1-score": 0.9990448901623686,
+        "support": 524.0
+      },
+      "accuracy": 0.7893129770992366,
+      "macro avg": {
+        "precision": 0.7891274301737878,
+        "recall": 0.7893129770992366,
+        "f1-score": 0.7881096162012742,
+        "support": 2620.0
+      },
+      "weighted avg": {
+        "precision": 0.7891274301737878,
+        "recall": 0.7893129770992366,
+        "f1-score": 0.7881096162012741,
+        "support": 2620.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        209,
+        0,
+        0,
+        315,
+        0
+      ],
+      [
+        0,
+        524,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        524,
+        0,
+        0
+      ],
+      [
+        235,
+        1,
+        0,
+        288,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        523
+      ]
+    ],
+    "class_order": [
+      "Benign",
+      "Biosignal_Spoofing",
+      "Denial_of_Sleep",
+      "Replay",
+      "Simulated_Jamming"
+    ],
+    "stopped_epoch": 15
+  },
+  "BiGRU_Attention": {
+    "macro_f1": 0.7855396100155413,
+    "report": {
+      "Benign": {
+        "precision": 0.46618357487922707,
+        "recall": 0.3683206106870229,
+        "f1-score": 0.4115138592750533,
+        "support": 524.0
+      },
+      "Biosignal_Spoofing": {
+        "precision": 1.0,
+        "recall": 0.9980916030534351,
+        "f1-score": 0.9990448901623686,
+        "support": 524.0
+      },
+      "Denial_of_Sleep": {
+        "precision": 1.0,
+        "recall": 0.9942748091603053,
+        "f1-score": 0.9971291866028709,
+        "support": 524.0
+      },
+      "Replay": {
+        "precision": 0.47716535433070867,
+        "recall": 0.5782442748091603,
+        "f1-score": 0.5228645383951682,
+        "support": 524.0
+      },
+      "Simulated_Jamming": {
+        "precision": 0.9943074003795066,
+        "recall": 1.0,
+        "f1-score": 0.9971455756422455,
+        "support": 524.0
+      },
+      "accuracy": 0.7877862595419848,
+      "macro avg": {
+        "precision": 0.7875312659178884,
+        "recall": 0.7877862595419847,
+        "f1-score": 0.7855396100155413,
+        "support": 2620.0
+      },
+      "weighted avg": {
+        "precision": 0.7875312659178884,
+        "recall": 0.7877862595419848,
+        "f1-score": 0.7855396100155413,
+        "support": 2620.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        193,
+        0,
+        0,
+        331,
+        0
+      ],
+      [
+        0,
+        523,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        521,
+        0,
+        3
+      ],
+      [
+        221,
+        0,
+        0,
+        303,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        524
+      ]
+    ],
+    "class_order": [
+      "Benign",
+      "Biosignal_Spoofing",
+      "Denial_of_Sleep",
+      "Replay",
+      "Simulated_Jamming"
+    ],
+    "stopped_epoch": 31
+  },
+  "Transformer": {
+    "macro_f1": 0.7935976118014229,
+    "report": {
+      "Benign": {
+        "precision": 0.510230179028133,
+        "recall": 0.7614503816793893,
+        "f1-score": 0.6110260336906586,
+        "support": 524.0
+      },
+      "Biosignal_Spoofing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 524.0
+      },
+      "Denial_of_Sleep": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 524.0
+      },
+      "Replay": {
+        "precision": 0.5300751879699248,
+        "recall": 0.26908396946564883,
+        "f1-score": 0.3569620253164557,
+        "support": 524.0
+      },
+      "Simulated_Jamming": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 524.0
+      },
+      "accuracy": 0.8061068702290076,
+      "macro avg": {
+        "precision": 0.8080610733996115,
+        "recall": 0.8061068702290075,
+        "f1-score": 0.7935976118014229,
+        "support": 2620.0
+      },
+      "weighted avg": {
+        "precision": 0.8080610733996115,
+        "recall": 0.8061068702290076,
+        "f1-score": 0.7935976118014229,
+        "support": 2620.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        399,
+        0,
+        0,
+        125,
+        0
+      ],
+      [
+        0,
+        524,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        524,
+        0,
+        0
+      ],
+      [
+        383,
+        0,
+        0,
+        141,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        524
+      ]
+    ],
+    "class_order": [
+      "Benign",
+      "Biosignal_Spoofing",
+      "Denial_of_Sleep",
+      "Replay",
+      "Simulated_Jamming"
+    ],
+    "stopped_epoch": 5
+  }
+}
