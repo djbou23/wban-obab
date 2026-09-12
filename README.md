@@ -4,8 +4,7 @@ This repository contains the benchmark construction pipeline, sample-lineage aud
 script, and the full set of analysis, ablation, and robustness-check scripts used to
 produce the results in:
 
-> D. E. Boubiche, "Beyond Generic IoMT: A WBAN-Specific Attack Benchmark and
-> Multi-Dimensional Evaluation for On-Body Medical Network Intrusion Detection,"
+> D. E. Boubiche et al., "A WBAN-Specific Attack Benchmark for On-Body Medical Network Intrusion Detection,"
 > [journal/venue and year to be added upon publication].
 
 The benchmark dataset itself is published separately on IEEE DataPort:
