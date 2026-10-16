@@ -1,0 +1,306 @@
+{
+  "three_feature": {
+    "native_prevalence": {
+      "WUSTL_to_OnBody": {
+        "macro_f1": {
+          "mean": 0.16666666666666666,
+          "std": 0.0
+        },
+        "balanced_acc": {
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "auc": {
+          "mean": 0.2924420743255055,
+          "std": 0.002476828371754887
+        },
+        "frac_pred_attack": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "attack_prevalence": {
+          "mean": 0.8,
+          "std": 0.0
+        }
+      },
+      "OnBody_to_WUSTL": {
+        "macro_f1": {
+          "mean": 0.11141363537355695,
+          "std": 1.3877787807814457e-17
+        },
+        "balanced_acc": {
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "auc": {
+          "mean": 0.3217079584084005,
+          "std": 0.011484346466025612
+        },
+        "frac_pred_attack": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "attack_prevalence": {
+          "mean": 0.1253830126240961,
+          "std": 0.0
+        }
+      }
+    },
+    "prevalence_matched": {
+      "WUSTL_to_OnBody": {
+        "macro_f1": {
+          "mean": 0.38511722351260486,
+          "std": 0.012223370422612576
+        },
+        "balanced_acc": {
+          "mean": 0.39026717557251905,
+          "std": 0.010862785855540224
+        },
+        "auc": {
+          "mean": 0.29402023483479983,
+          "std": 0.021059605589958005
+        },
+        "frac_pred_attack": {
+          "mean": 0.4093511450381679,
+          "std": 0.01086278585554024
+        },
+        "attack_prevalence": {
+          "mean": 0.5,
+          "std": 0.0
+        }
+      },
+      "OnBody_to_WUSTL": {
+        "macro_f1": {
+          "mean": 0.3333333333333333,
+          "std": 0.0
+        },
+        "balanced_acc": {
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "auc": {
+          "mean": 0.3166756726282788,
+          "std": 0.01213100577059927
+        },
+        "frac_pred_attack": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "attack_prevalence": {
+          "mean": 0.5,
+          "std": 0.0
+        }
+      },
+      "WUSTL_in_domain": {
+        "macro_f1": {
+          "mean": 0.7481474036121014,
+          "std": 0.023294179823604814
+        },
+        "balanced_acc": {
+          "mean": 0.7530562347188263,
+          "std": 0.02167644035139512
+        },
+        "auc": {
+          "mean": 0.8422510625833179,
+          "std": 0.01928794275547164
+        },
+        "frac_pred_attack": {
+          "mean": 0.36748166259168696,
+          "std": 0.03749371015492922
+        },
+        "attack_prevalence": {
+          "mean": 0.5,
+          "std": 0.0
+        }
+      },
+      "OnBody_in_domain": {
+        "macro_f1": {
+          "mean": 0.9340548008203001,
+          "std": 0.009401395407244155
+        },
+        "balanced_acc": {
+          "mean": 0.934351145038168,
+          "std": 0.009298418103114367
+        },
+        "auc": {
+          "mean": 0.9364037643493969,
+          "std": 0.008729662835815005
+        },
+        "frac_pred_attack": {
+          "mean": 0.43473282442748096,
+          "std": 0.008922648646993105
+        },
+        "attack_prevalence": {
+          "mean": 0.5,
+          "std": 0.0
+        }
+      }
+    },
+    "WUSTL_to_OnBody_per_attack_auc": {
+      "Biosignal_Spoofing": 0.1394222364664064,
+      "Denial_of_Sleep": 0.00021851873433949062,
+      "Replay": 0.5282216945399452,
+      "Simulated_Jamming": 0.4974251209136996
+    }
+  },
+  "heart_rate_only": {
+    "native_prevalence": {
+      "WUSTL_to_OnBody": {
+        "macro_f1": {
+          "mean": 0.16666666666666666,
+          "std": 0.0
+        },
+        "balanced_acc": {
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "auc": {
+          "mean": 0.43463139531495837,
+          "std": 0.0004895978631396783
+        },
+        "frac_pred_attack": {
+          "mean": 0.0,
+          "std": 0.0
+        },
+        "attack_prevalence": {
+          "mean": 0.8,
+          "std": 0.0
+        }
+      },
+      "OnBody_to_WUSTL": {
+        "macro_f1": {
+          "mean": 0.11141363537355695,
+          "std": 1.3877787807814457e-17
+        },
+        "balanced_acc": {
+          "mean": 0.5,
+          "std": 0.0
+        },
+        "auc": {
+          "mean": 0.5110326729887475,
+          "std": 0.006368572122807689
+        },
+        "frac_pred_attack": {
+          "mean": 1.0,
+          "std": 0.0
+        },
+        "attack_prevalence": {
+          "mean": 0.1253830126240961,
+          "std": 0.0
+        }
+      }
+    },
+    "prevalence_matched": {
+      "WUSTL_to_OnBody": {
+        "macro_f1": {
+          "mean": 0.43658057064661354,
+          "std": 0.002972834752775593
+        },
+        "balanced_acc": {
+          "mean": 0.45038167938931295,
+          "std": 0.003518910098203389
+        },
+        "auc": {
+          "mean": 0.4423168813006235,
+          "std": 0.005882849463910115
+        },
+        "frac_pred_attack": {
+          "mean": 0.6564885496183207,
+          "std": 0.0035189100982033887
+        },
+        "attack_prevalence": {
+          "mean": 0.5,
+          "std": 0.0
+        }
+      },
+      "OnBody_to_WUSTL": {
+        "macro_f1": {
+          "mean": 0.49340251795379403,
+          "std": 0.0054210575793942365
+        },
+        "balanced_acc": {
+          "mean": 0.4948680351906159,
+          "std": 0.005842658260906586
+        },
+        "auc": {
+          "mean": 0.5113423994939461,
+          "std": 0.008902453262491174
+        },
+        "frac_pred_attack": {
+          "mean": 0.4476539589442815,
+          "std": 0.01270527835735008
+        },
+        "attack_prevalence": {
+          "mean": 0.5,
+          "std": 0.0
+        }
+      },
+      "WUSTL_in_domain": {
+        "macro_f1": {
+          "mean": 0.561811846493083,
+          "std": 0.0165677163189434
+        },
+        "balanced_acc": {
+          "mean": 0.5677261613691932,
+          "std": 0.016118386037994634
+        },
+        "auc": {
+          "mean": 0.5861837267830776,
+          "std": 0.015204868387412963
+        },
+        "frac_pred_attack": {
+          "mean": 0.3845965770171149,
+          "std": 0.01243342996096931
+        },
+        "attack_prevalence": {
+          "mean": 0.5,
+          "std": 0.0
+        }
+      },
+      "OnBody_in_domain": {
+        "macro_f1": {
+          "mean": 0.5661967585301518,
+          "std": 0.006914076581647364
+        },
+        "balanced_acc": {
+          "mean": 0.6229007633587786,
+          "std": 0.004690154857803246
+        },
+        "auc": {
+          "mean": 0.6290626274692617,
+          "std": 0.01330117052105259
+        },
+        "frac_pred_attack": {
+          "mean": 0.1385496183206107,
+          "std": 0.004284340519206806
+        },
+        "attack_prevalence": {
+          "mean": 0.5,
+          "std": 0.0
+        }
+      }
+    },
+    "WUSTL_to_OnBody_per_attack_auc": {
+      "Biosignal_Spoofing": 0.2266421682885613,
+      "Denial_of_Sleep": 0.5000000000000001,
+      "Replay": 0.510527140026805,
+      "Simulated_Jamming": 0.5000000000000001
+    }
+  },
+  "single_feature_auc_attack_vs_benign": {
+    "WUSTL": {
+      "heart_rate_bpm": 0.5902095312575341,
+      "network_rate": 0.21761739999627405,
+      "loss_rate": 0.49964851643697206
+    },
+    "OnBody_all": {
+      "heart_rate_bpm": 0.43566538514468056,
+      "network_rate": 0.5664437791273239,
+      "loss_rate": 0.7059093081958341
+    }
+  },
+  "class_prevalence": {
+    "WUSTL_attack": 0.1253830126240961,
+    "OnBody_attack": 0.8
+  }
+}

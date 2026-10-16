@@ -27,9 +27,15 @@ The benchmark dataset itself is published separately on IEEE DataPort:
     `replay_variants.py`, `window_length_sensitivity.py`,
     `distribution_overlap_analysis.py`, `simple_baselines.py`,
     `cross_dataset_generalization.py`, `cross_dataset_robustness.py`,
-    `cross_dataset_robustness_v2.py`), efficiency profiling
+    `cross_dataset_robustness_v2.py`, `cross_dataset_diagnostics.py`), efficiency profiling
     (`efficiency_profiling*.py`), and SHAP explainability scripts
     (`shap_analysis*.py`).
+  - `cross_dataset_diagnostics.py` — diagnostics for the WUSTL-EHMS-2020 <-> on-body
+    transfer experiment (paper, Section VII.K, Table XIV): fraction of target samples
+    predicted as attack, ROC-AUC, a prevalence-matched re-run, per-attack AUC, and
+    single-feature AUC. It shows that the reported transfer macro-F1 values coincide
+    with constant predictions, so the transfer experiment does not isolate a
+    WBAN-specific effect.
 - **`results/`** — the complete experimental results referenced throughout the paper,
   as JSON files, one per experiment/script (e.g. `lineage_leakage_audit_results.json`,
   `cross_subject_loso_results.json`, `replay_variants_results.json`,
